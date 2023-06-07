@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s",
+    "a",
+    "g"
+  ],
+  "key": {
+    "s": {
+      "item": "enigmaticcursedstone:cursed_stone"
+    },
+    "a": [
+      {
+        "item": "enigmaticlegacy:earth_heart"
+      },
+      {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    ],
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:unwitnessed_amulet",
+    "count": 1
+  }
+}

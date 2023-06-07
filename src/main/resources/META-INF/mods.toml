@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+
+[[mods]]
+modId = "enigmaticcursedstone"
+version = "${file.jarVersion}"
+displayName = "Enigmatic Cursed Stone"
+logoFile = "logo.png"
+authors = "ScottyThePilot"
+description = '''
+This mod adds a new item, the Cursed Stone.
+It can be used to craft the Cursed Ring and Enigmatic Amulet, or to re-roll the Enigmatic Amulet.
+'''
+
+[[dependencies.enigmaticcursedstone]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+
+[[dependencies.enigmaticcursedstone]]
+modId = "enigmaticlegacy"
+mandatory = true
+versionRange = "[2.20,)"
+ordering = "AFTER"
+side = "BOTH"
