@@ -28,7 +28,7 @@ public class EnigmaticCursedStone {
   public static class Handler {
     // Enigmatic Legacy's event priority is LOW, so this should execute after it
     @SubscribeEvent(priority = EventPriority.LOWEST)
-	  public static void onPlayerJoin(PlayerEvent.PlayerLoggedInEvent event) {
+    public static void onPlayerJoin(PlayerEvent.PlayerLoggedInEvent event) {
       Player player = event.getPlayer();
       if (
         // Only run if enigmatic legacy has given the player the ring (won't happen if the item is disabled)
