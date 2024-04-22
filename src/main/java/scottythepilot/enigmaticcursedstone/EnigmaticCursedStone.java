@@ -21,6 +21,7 @@ public class EnigmaticCursedStone {
   public static final Logger LOGGER = LogUtils.getLogger();
 
   public static Item cursedStoneItem;
+  public static Item stoneCoreItem;
 
   public EnigmaticCursedStone() {}
 
@@ -55,7 +56,8 @@ public class EnigmaticCursedStone {
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
       cursedStoneItem = new Item(properties(16, Rarity.UNCOMMON)).setRegistryName(MOD_ID, "cursed_stone");
-      event.getRegistry().registerAll(cursedStoneItem);
+      stoneCoreItem = new Item(properties(16, Rarity.COMMON)).setRegistryName(MOD_ID, "stone_core");
+      event.getRegistry().registerAll(cursedStoneItem, stoneCoreItem);
     }
 
     private static Item.Properties properties(int stacks, Rarity rarity) {

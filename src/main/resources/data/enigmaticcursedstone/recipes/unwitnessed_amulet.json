@@ -9,14 +9,9 @@
     "s": {
       "item": "enigmaticcursedstone:cursed_stone"
     },
-    "a": [
-      {
-        "item": "enigmaticlegacy:earth_heart"
-      },
-      {
-        "item": "enigmaticlegacy:astral_dust"
-      }
-    ],
+    "a": {
+      "item": "enigmaticlegacy:earth_heart"
+    },
     "g": {
       "item": "minecraft:gold_ingot"
     }

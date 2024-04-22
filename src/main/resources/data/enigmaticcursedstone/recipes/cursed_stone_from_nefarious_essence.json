@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enigmaticcursedstone:stone_core"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    }
+  ],
+  "result": {
+    "item": "enigmaticcursedstone:cursed_stone",
+    "count": 1
+  }
+}

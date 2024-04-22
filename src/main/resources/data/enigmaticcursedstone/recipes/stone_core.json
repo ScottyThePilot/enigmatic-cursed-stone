@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": "enigmaticcursedstone:stone_core",
+  "count": 1
+}
